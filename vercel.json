@@ -1,4 +1,4 @@
-cat > vercel.json << 'JSON'
+
 {
   "version": 2,
   "builds": [
