@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "builds": [{ "src": "vite.config.*", "use": "@vercel/static-build" }],
-  "framework": "vite",
-  "outputDirectory": "dist",
-
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-
   "headers": [
     {
       "source": "/assets/(.*)",
